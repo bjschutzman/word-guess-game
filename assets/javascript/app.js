@@ -39,6 +39,7 @@ var lossesCounter = 0;
         document.getElementById("winCounter").innerHTML = winsCounter;
         document.getElementById("lossCounter").innerHTML = lossesCounter;
 
+        console.log("hello")
 
         // testing
         console.log(selectedWord);
