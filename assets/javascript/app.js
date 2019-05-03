@@ -33,13 +33,12 @@ var lossesCounter = 0;
             blanksAndSuccesses.push("-");
         }
     
-        // chaning HTML
+        // changing HTML
         document.getElementById("wordToGuess").innerHTML = blanksAndSuccesses;
         document.getElementById("numGuesses").innerHTML = guessesLeft;
         document.getElementById("winCounter").innerHTML = winsCounter;
         document.getElementById("lossCounter").innerHTML = lossesCounter;
 
-        console.log("hello")
 
         // testing
         console.log(selectedWord);
